@@ -29,7 +29,7 @@ export class User extends Model<User> {
   gender: string;
 
   @Column({
-    type: DataType.NUMBER,
+    type: DataType.INTEGER,
   })
   age: number;
 }
